@@ -1,0 +1,138 @@
+h1 {
+  font-size: 5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.smallContent {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  padding: 3.5rem 0;
+}
+
+header {
+  background-image: url("../IMG/banner.png");
+  height: 960px;
+  background-position: center;
+}
+header .headerContent {
+  color: white;
+}
+header .headerContent .media {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .breakLine {
+  border-bottom: 1px solid black;
+  max-width: 24rem;
+  margin: 1.5rem auto;
+}
+.about h2, .about figure {
+  text-align: center;
+  font-weight: bolder;
+}
+.about h2 {
+  margin-bottom: 2.5rem;
+}
+.about figure img {
+  margin-bottom: 1.25rem;
+}
+.about ul:last-child li p {
+  display: inline-block;
+}
+.about ul:last-child li::before {
+  content: "";
+  width: 1.375rem;
+  height: 1.375rem;
+  background-color: #891818;
+  border-radius: 50%;
+  transform: translateY(2.25px);
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.brand {
+  background-color: black;
+}
+.brand h2, .brand .brandContent {
+  color: white;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+.brand .brandContent {
+  margin-bottom: 2.25rem;
+}
+.brand .brandContent p {
+  margin-bottom: 2rem;
+}
+.brand ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.brand ul li img {
+  width: 100%;
+}
+.brand ul li:first-child {
+  margin-bottom: 2.5rem;
+}
+.brand ul li:nth-child(2), .brand ul li:nth-child(3) {
+  max-width: 48%;
+}
+.brand ul li:nth-child(2) {
+  margin-right: 2%;
+}
+
+.work {
+  margin-bottom: 5.5rem;
+}
+.work h2, .work p {
+  text-align: center;
+}
+.work h2 {
+  margin-bottom: 1rem;
+}
+.work ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.work ul li img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 64px 0;
+}
+
+/*# sourceMappingURL=main.css.map */

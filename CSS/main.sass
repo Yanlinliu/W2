@@ -1,0 +1,152 @@
+
+// 字體設定
+
+// 20 24 64 80
+
+
+h1
+    font-size: 5rem  // 80
+    line-height: 1.5
+    font-weight: bolder
+
+h2
+    font-size: 4rem  // 64
+    line-height: 1.5
+
+p
+    font-size: 1.5rem // 24
+    line-height: 1.5  // 36
+
+.smallContent
+    font-size: 1.25rem // 20
+    line-height: 1.5
+
+
+// 容器設定
+.container
+    max-width: 1200px
+    margin: 0 auto
+
+header
+    display: flex
+    justify-content: center
+    align-items: center
+
+section
+    //margin-top: 3.5rem // 56
+    padding: 3.5rem 0
+// 元件
+
+// Header
+
+header
+    background-image: url("../IMG/banner.png")
+    height: 960px
+    background-position: center
+
+    .headerContent
+        color: white
+        .media
+            margin-top: 2.5rem
+            display: flex
+            justify-content: space-between
+
+
+// About
+
+.about
+
+    .breakLine
+        border-bottom: 1px solid black
+        max-width: 24rem // 384
+        margin: 1.5rem auto
+
+    h2, figure
+        text-align: center
+        font-weight: bolder
+
+    h2
+        margin-bottom: 2.5rem // 40
+    figure
+        img
+            margin-bottom: 1.25rem // 20
+
+
+    ul:last-child
+
+        li
+            p
+                display: inline-block // 為 block 時會占滿全版面強制換行，list的圓點跟文字就會不同行。
+        li::before
+            content: ""
+            width: 1.375rem // 22
+            height: 1.375rem // 22
+            background-color: #891818
+            border-radius: 50%
+            transform: translateY(2.25px)  // 為什麼他不會置中
+            display: inline-block
+            margin-right: .5rem
+
+// Brand
+
+
+.brand
+    background-color: black
+
+    h2, .brandContent
+        color: white
+        text-align: center
+        margin-bottom: .75rem // 12
+    .brandContent
+        p
+            margin-bottom: 2rem
+
+        margin-bottom: 2.25rem // 36
+
+    ul
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+
+        li
+            img
+                width: 100%  // 為什麼　li 裡面的 img 在沒有設定 img - width 為 100%前，img 的大小和 li 是不同步的？
+
+        li:first-child
+            margin-bottom: 2.5rem // 40
+
+        li:nth-child(2), li:nth-child(3)
+            max-width: 48%
+        li:nth-child(2)
+            margin-right: 2%
+
+
+// Work
+
+.work
+    margin-bottom: 5.5rem // 88
+    h2, p
+        text-align: center
+    h2
+        margin-bottom: 1rem
+
+    ul
+        display: flex
+        justify-content: space-between
+        margin-top: 48px
+
+        li
+            img
+                width: 100%
+                margin-bottom: 1rem
+
+
+// Footer
+
+
+footer
+    background-color: black
+    color: white
+    text-align: center
+    padding: 64px 0
+
