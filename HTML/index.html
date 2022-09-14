@@ -23,7 +23,7 @@
 </header>
 
 <main>
-    <section class="about">
+    <section  data-aos="fade-left" class="about">
         <h2>About</h2>
         <figure>
             <img src="../IMG/photo.png" alt="">
@@ -57,7 +57,7 @@
         </figure>
     </section>
     
-    <section class="brand">
+    <section  data-aos="fade-right" class="brand">
         <div class="container">
             <h2>My Brand ‘’XXXD’’</h2>
             <div class="brandContent">
@@ -77,7 +77,7 @@
 
     </section>
 
-    <section class="work">
+    <section  data-aos="fade-left" class="work">
         <div class="container">
             <h2>Other Works</h2>
             <p class="smallContent">2016-2020 年累積的作品<br>
@@ -120,11 +120,17 @@
     </section>
 </main>
 
-<footer class="contact">
+<footer  data-aos="fade-right" class="contact">
     <h2>Contact</h2>
     <p>Mail：xxxd@hexschool.com</p>
     <p>Phone Number：0910123456</p>
 </footer>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>
